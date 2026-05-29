@@ -10,3 +10,5 @@ prompt_in_use.md is already the character definition.
 23_info.md is details relevant to a possible selection that isn't yet implemented.
 
 18_info.md is details relevant to a possible selection that isn't yet implemented.
+
+link to full list of links in repository AND dictionary spefications for inclusion within link.md
