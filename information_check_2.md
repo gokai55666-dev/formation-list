@@ -342,4 +342,134 @@ By following this approach, you'll stay well within your 2.12GB limit while gain
 END 4
 —
 
+5:
+Looking at your device's specs, your biggest hurdle is internal storage. According to the files, the ZTE A71 5G (likely the ZTE Blade A71) has 64 GB of internal storage and can be expanded with a microSD card.
+
+Here is a breakdown of the solutions, each explained in terms of A) Storage, B) Setup, and C) Other Useful Info.
+
+⚡ Core Browser Solutions
+
+These lightweight browsers have powerful built-in script managers that work instantly.
+
+· XBrowser: A) 1.94 MB. B) Install, go to Menu > Settings > Browser Scripts to add scripts from @match URLs. C) Trusted (requires Android 5.2+). Has ad-blocking and video downloading.
+· Stay Browser: A) ~5-8 MB (est.). B) Install and grant permissions when first needed. C) Trusted on Play Store. Supports full script management including Tampermonkey.
+· Via Browser: A) 2.7 MB. B) Like XBrowser, it's install and use. C) Highly rated for its minimalism, no background services, and extensive ad-block filters.
+· Lightning Browser: A) ~2-3 MB (est.). B) Install via F-Droid or GitHub. C) Open-source and has a clean UI with ad-blocking.
+
+⚙️ Userscript Managers (For Use with Another Browser)
+
+These let you add powerful script functionality to your current browser.
+
+· Violentmonkey: A) ~15-20 MB. B) Install as a browser extension. C) Trusted open-source project with a clean UI. It works with Kiwi Browser if you can afford the storage space.
+
+🤖 Advanced/Automation Tools (Experimental)
+
+These powerful automation tools require setup and technical knowledge.
+
+· AutoGLM For Android: A) ~200-300 MB (plus dependencies). B) Install Shizuku, grant permissions (including debugging), set up an account with BigModel or ModelScope, and input the API key. C) Trusted (open-source by Zhipu AI). Includes AI that can follow natural language commands to tap, swipe, and type.
+· MacroDroid: A) ~20-30 MB. B) Install, grant permissions (accessibility, etc.), and create macros with a simple visual builder. C) Well-known and trusted automation app. It's not an AI agent; it automates based on triggers you define.
+· Tasker: A) ~10-15 MB. B) Install, grant permissions, and use a learning curve to create automation tasks. C) Extremely powerful and flexible; considered the gold standard for Android automation.
+
+🛡️ Content Moderation Tools (Contextual)
+
+· Jōka: A) Not applicable. B) N/A. C) This is an AI-powered filter for websites using an API key, not a user app【files】.
+· VideoSanitizer: A) Not applicable. B) N/A. C) This is a Node.js developer tool for video editing on computers【files】.
+
+If you decide to try a specific app and need help with installation or finding a script, feel free to ask.
+
+
+
+---
+END 5
+---
+6:
+Here's a detailed, fully updated guide for free, easy-to-use solutions on the ZTE A71 5G, with a deeper focus on your specific need to free up storage and run advanced scripts.
+
+The key to running userscripts on Android is that very few browsers natively support extensions. However, many lightweight browsers now have built-in script managers, which is a much more efficient solution for your device.
+
+💻 Browsers with Built-In Script Managers
+
+These are the most efficient "all-in-one" solutions for your ZTE A71.
+
+XBrowser
+
+· A) Storage: ~2 MB.
+· B) Setup: Install, tap ≡ > Settings > Browser Scripts > +. Add script directly by URL or paste code. Manage scripts with a built-in editor.
+· C) Other Info: Trustworthy & actively maintained. Uses Chromium. Prioritizes speed and privacy, only requesting a few necessary permissions.
+
+Via Browser
+
+· A) Storage: Under 1 MB.
+· B) Setup: Install the browser, open viabrowser://settings/extensions in the address bar, and you'll be in the extension/script center. From there, you can download and manage scripts, including those from GreasyFork.
+· C) Other Info: Trustworthy, widely used(～10+ million downloads). Very lightweight. It's based on WebView, so some complex scripts might not work perfectly.
+
+Stay Browser
+
+· A) Storage: ~15–20 MB.
+· B) Setup: Install, allow necessary permissions during onboarding. Features a powerful built-in script editor (supports Tampermonkey/Violentmonkey) and can also install scripts from external .js files.
+· C) Other Info: Moderately Trustworthy; recent reviews mention stability issues and slightly cumbersome UI. It has a very sleek design that's built specifically for script management.
+
+Berry Browser
+
+· A) Storage: ~5–10 MB.
+· B) Setup: Install, navigate to the extensive settings menu to find the built-in Userscript manager. You can paste URL or code to add scripts directly. You'll need to enable the script manager and possibly adjust URL patterns.
+· C) Other Info: Trustworthy on Google Play, very customizable. Less known but highly customizable, with a dedicated 2026 script available for its own enhanced features. Minimal UI interaction.
+
+🧩 Script Managers for External Browsers
+
+These are extensions to give an existing browser userscript powers.
+
+Hermit (Lite Apps Browser)
+
+· A) Storage: ~8 MB for the app; Lite Apps & scripts are sandboxed in isolated containers, protecting device performance.
+· B) Setup: Install from Google Play or APKMirror. Create a "Lite App" (web wrapper) for your desired site, then add your user.js scripts via the "User Scripts" option in the menu for full control.
+· C) Other Info: Trustworthy Premium Freemium. The base version is free and open-source. Known for its unique sandboxing and multi-profile feature, so each script runs in its own isolated environment.
+
+Violentmonkey
+
+· A) Storage: ~0.7 MB (add-on) plus the size of your scripts .
+· B) Setup: Install on Firefox for Android via the official add-on site. After installation, you'll find its icon in your browser's menu to manage your scripts.
+· C) Other Info: Trustworthy. Works with: Lemur, Yandex, Firefox. A well-regarded, classic script manager that is lightweight. May require granting additional permissions like 'storage' or 'accessibility' for some scripts to function.
+
+Lemur Browser
+
+· A) Storage: ~20–30 MB.
+· B) Setup: Install, then open the browser's menu to find its internal extension store. Search for and install Tampermonkey or Violentmonkey, as you would on a desktop browser.
+· C) Other Info: Moderately Trustworthy. Supports many Chrome and Edge extensions, but as a newer browser, its long-term stability is less certain. The browser itself is heavier, but you avoid paying that storage cost twice.
+
+🤖 Other Automation & Scripting Tools
+
+These fall outside the typical "browser" category but are powerful additions to your toolbox.
+
+MacroDroid (Automation Tool)
+
+· A) Storage: ~15–20 MB.
+· B) Setup: Install, grant permissions (Accessibility for UI interaction is crucial for robust automation). Create a macro by selecting a Trigger (e.g., screen on), an Action (e.g., launch app), and a Constraint (e.g., only on weekdays). Its UI is intuitive and easy to pick up without needing to write code.
+· C) Other Info: Trustworthy & well known. Its visual logic is easy to use for beginners. A complex operation like a full UI script might require several macros or the Pro version for more steps.
+
+Auto.js (JavaScript Automation)
+
+· A) Storage: ~5–10 MB (base) but can be heavy with installed scripts.
+· B) Setup: Download the APK from a reputable mirror (use with extreme caution), enable "Unknown Sources" in system settings, then install the app. It relies on Android's Accessibility Service for system-wide input simulation. You can write or download .js scripts to run.
+· C) Other Info: Use with Caution/Moderately Trustworthy. It's powerful for automating system tasks but may slow your device if not careful. Only use well-reviewed scripts from trusted sources (like Github) to avoid malware.
+
+🗃️ Essential Utilities
+
+SD Maid SE (Storage Cleaner)
+
+· A) Storage: ~6–8 MB.
+· B) Setup: Install, grant 'storage' permission, tap 'Scan' to find junk, residual files, and app caches. The free version handles basic cleaning; Pro version offers duplicate finder and system cleaner.
+· C) Other Info: Trustworthy, well known. The most trusted cleaning app for Android. It's widely recommended specifically for low-storage Android devices.
+
+🛡️ Other Potentially Useful Solutions
+
+· Firefox for Android: A) ~50–70 MB. B) Install, tap ≡ > Add-ons > search for Tampermonkey/Violentmonkey. C) Trustworthy. Heavy on storage, but easier setup and robust web compatibility.
+· VPN: Proton VPN Free: A) ~35 MB. B) Sign up for a free account. C) Trustworthy. Unlimited data and a strict no-logs policy with strong encryption, perfect for privacy or accessing region-specific services.
+
+Hope this helps you navigate your options. If you decide to try one of these solutions and need help finding a specific type of userscript, feel free to ask.
+
+---
+END 6
+---
+
 
