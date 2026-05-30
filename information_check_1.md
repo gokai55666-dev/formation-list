@@ -35,25 +35,27 @@ Remember specs for the android phone need to be considered for usability alongsi
 
 **Also note that I can make my free storage go up IF necessary from where it is currently at 2.12 GB, until it's whatever is necessary as specified for the individual solution.**
 
-now here is the specs for the ZTE A71 5G:
+now here is the specs for the ZTE A71 5G: Device & Model
 
+· Device name: Spike Lee's hat
+· Model: ZTE A71 5G
+· Build number: ZTE A71 5G_M11
 
-Component Specification
-Model ZTE A71 5G
-Android version 11
-Security patch 5 January 2024
-Google Play system update 1 September 2025
-Kernel 4.14.186+
-CPU MediaTek Dimensity 700, Octa-core, max 2.2GHz
-RAM 4 GB (with “Extended RAM” feature unavailable due to low storage)
-Storage (ROM) 64 GB total, only 2.12 GB available
-Screen resolution 1600×720
-Baseband MOLY.NR15.R3.MPV18.8.P13
+Software
 
-Critical constraint: Your free storage is critically low (2.12 GB), which blocks extended RAM and limits app installations.
+· Android version: 11
+· Android security update: 5 January 2024
+· Google Play system update: 1 September 2025
+· Kernel version: 4.14.186+
+· Baseband version: MOLY.NR15.R3.MPV18.8.P13
 
+Hardware
 
-
+· CPU: MediaTek Dimensity 700 5G Mobile Platform, Octa-core, max 2.2 GHz (appears in the corrupted IMEI field)
+· RAM: 4 GB (with memory compression feature claiming 130% effective utilization)
+· Extended RAM: Off (requires more free storage; would add 2 GB if enabled)
+· Internal storage (ROM): 64 GB total, 5.44 GB available (from Screenshot_20260530_115755~2.jpg – the “CPU” field mislabels this as CPU info, but the “ROM info” field confirms the same numbers)
+· Screen resolution: 1600 × 720
 
 —
 END of Specs
