@@ -212,3 +212,63 @@ If you'd like step‑by‑step guidance on any of these (e.g., "how to install X
 END 2
 —
 
+3:
+Of course. I've looked beyond the files you shared and found quite a few new tools and frameworks for Android automation. Given your device's limited storage, I've focused on lightweight on-device solutions.
+
+⚙️ Lightweight Automation & Scripting
+
+These tools allow for powerful automation without needing a computer, which is perfect for your device.
+
+· DroidWright: An automation framework where you can write scripts directly on your device using JavaScript, giving you much more control than basic clickers.
+· Robotmon: A lightweight JavaScript interpreter that runs directly on Android 8.0+ devices, allowing you to automate tasks without a PC.
+· Auto.js: The classic open-source automation engine that has been a go-to for many power users to script complex UI interactions.
+· Hermit: A tiny (under 3MB) tool that creates a local server on your device, allowing you to control your phone using simple HTTP requests from any programming language.
+· DiscoBall: A small (11MB), open-source automation tool that uses image detection, making it more robust than clicking on fixed screen coordinates.
+· Android-WebMonkey: A no-frills web browser specifically designed to support Greasemonkey userscripts, providing a lightweight way to browse and automate web tasks.
+· FastTap: A lightweight automatic clicker with a minimal ~10MB install size.
+
+🧠 On-Device AI Agents (No PC Required)
+
+A fantastic new class of tools uses AI to understand what's on your screen. They are designed to be lightweight and completely standalone.
+
+· Sova AI: A true on-device AI agent that physically controls your apps using natural language commands—no root, ADB, or PC required.
+· PokeClaw (PocketClaw): An open-source app that runs the Gemma 4 AI model entirely on your device to perform phone automation and can optionally use cloud models for harder tasks.
+· Jandal AI: A "local-first" intelligent assistant that runs all AI inference on your device using Google's Gemma-4 model, ensuring 100% privacy.
+· OpenOmniBot: An on-device AI assistant that can "see" your screen and operate your phone like a human, including apps, gestures, and system settings.
+· Andclaw: A lightweight AI agent that uses Android's Accessibility Services to control your phone without root or a PC connection.
+· Operit AI: An all-in-one AI assistant with over 40 built-in tools that can automate tasks based on natural language. It's quite popular with over 4,500 GitHub stars.
+· Roubao (肉包): Often called the "open-source Doubao Phone Assistant," this tool is built with Kotlin and runs entirely on your phone without any computer connection.
+· android-use: Another open-source implementation of a natural language-driven Android automation tool.
+· ClawMobile: A tool that lets an AI agent live on your phone, using local files and shell tools, and can turn your demonstrations into reusable skills.
+
+🌐 Browser & Web Automation
+
+Tools that rely on a web browser for lightweight scripting and automation.
+
+· kdriver: A Kotlin library that acts as a lightweight, undetectable browser automation tool using the Chrome DevTools Protocol (CDP).
+· Wildmonkey: A lightweight userscript manager browser extension for Firefox on Android, capable of running custom scripts to automate web page behavior.
+
+📡 Remote Control & MCP Servers
+
+These solutions turn your device into a server that can be remotely controlled by an AI.
+
+· Android-MCP: A lightweight, open-source bridge that uses the Model Context Protocol (MCP) to let an AI agent on another machine interact with your Android device.
+· AndroidAgentBridge: This app runs a tiny server on your device over your local network, allowing an MCP-capable client (like Claude Desktop) to read your screen and perform taps, swipes, and text input remotely.
+· baremobile: An npm package that gives AI agents full control of mobile devices, allowing them to read the screen, tap, type, swipe, and launch apps.
+
+🧪 Emerging Frameworks & Academic Projects
+
+These are frameworks aimed at making on-device AI agents faster and more efficient.
+
+· FIRERPA: A lightweight, on-device automation stack with 160+ APIs for UI automation, OCR, scheduling, and shell execution.
+· lamda-frida: A framework built for the mobile-first era, designed to be lightweight with no external dependencies.
+· UI-KOBE: An academic framework that creates "app knowledge graphs" to help lightweight AI agents navigate apps more efficiently, reducing the processing power needed.
+· AgentCPM-GUI: An intelligent agent for mobile devices that uses vision and task planning to automate operations.
+· MobileExplorer: A research framework from arXiv that speeds up on-device AI agents by exploring UI elements while the AI is "thinking," reducing overall latency.
+
+The list is quite long. A few of these, like PokeClaw, Sova AI, or DroidWright, seem particularly promising. Would you like a closer look or a more detailed breakdown of any of them?
+
+
+---
+END 3
+---
